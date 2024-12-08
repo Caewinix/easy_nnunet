@@ -1,5 +1,4 @@
 import os
-import argparse
 import inyaml
 import json
 from time import time
