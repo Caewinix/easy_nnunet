@@ -1,0 +1,10 @@
+dataset:
+  raw: './dataset/raw'
+  preprocessed: './dataset/preprocessed'
+  results: './dataset/results'
+
+settings:
+  devices: 1
+  identity: 'Dataset003_MethylationAxial'
+  configuration: '3d_fullres'
+  fold: 5

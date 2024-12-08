@@ -1,0 +1,7 @@
+python preprocess.py -p dataset/raw/methylation.zip --output-base-dir dataset/raw
+
+python plan.py --config configs/methylation.yaml --verify_dataset_integrity -pl nnUNetPlannerResEncL
+
+python train.py --config configs/methylation.yaml --npz --c -p nnUNetResEncUNetLPlans
+
+python infer.py --config configs/methylation.yaml -p nnUNetResEncUNetLPlans
