@@ -3,3 +3,4 @@ numpy
 pandas
 tqdm
 genericpy
+nnunetv2
